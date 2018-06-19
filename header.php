@@ -30,14 +30,14 @@
             	<div class="header">
                 	<div class="logo">
                     	<a href="<?php echo get_permalink(4); ?>">
-                    	<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" style="width:100%; float:left; position:relative;">
+                    	    <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" style="width:100%; float:left; position:relative;">
                     	</a>
                     </div>
-                    <!--<div class="nav" onclick="toggle_visibility('hidden')" style="cursor:pointer">-->
+                    
                     <div id='slideToggle' class="nav" style="cursor:pointer">
                         <img src="<?php bloginfo('template_directory'); ?>/images/nav-small.png" style="width:100%; float:right; position:relative; padding:5px 0px 7px 12px;">
                     </div>
-                    <!--</div>-->
+                    
                     
                 </div>
                 <div id="hidden" class="hidden slideTogglebox">
