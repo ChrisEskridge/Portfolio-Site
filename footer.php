@@ -28,7 +28,7 @@
                  		
                     	<div class="art-box" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/project-test.jpg); background-size:cover;">
                 		<img src="<?php the_field('thumbnail'); ?>" style="width:100%; float:left; position:relative;">
-                		</div>
+                	</div>
                         
                     </a>    
                           
@@ -40,12 +40,12 @@
         	<div class="content2">
             	<a href="<?php echo get_permalink(9); ?>">
             		<div class="contact-bottom" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/con-pic.jpg); background-size:cover; background-position:center">
-                    	<div class="color">
-                        	
-                        </div>
-                        <div class="footer-contact-text">
-                            contact me now!
-                        </div>
+				<div class="color">
+
+				</div>
+				<div class="footer-contact-text">
+				    contact me now!
+				</div>
                 	</div>
                 </a>
                 <div class="footer-text">
